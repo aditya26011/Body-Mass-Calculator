@@ -1,7 +1,9 @@
 import Logo from '../Assets/logo.svg'
 
+
 const Body=()=>{
     return(
+        <>
         <div className='flex items-center flex-col bg-slate-300 rounded-b-3xl lg:w-3/4 lg:ml-3 lg:relative  '>
             <div >
                 <img className='mt-4 lg:absolute lg:left-24 ' src={Logo} alt="Logo" />
@@ -18,7 +20,11 @@ const Body=()=>{
             </p>
 
             </div>
+          
         </div>
+        
+       
+        </> 
     );
 }
 
