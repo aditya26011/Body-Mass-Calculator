@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const BMI = () => {
-  const [heightValue, setHeightValue] = useState(0);
+  const [heightValue, setHeightValue] = useState('');
   const [weightValue, setWeightValue] = useState('');
   const[bmiValue,setBMIValue]=useState('');
 
